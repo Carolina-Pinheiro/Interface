@@ -1,0 +1,10 @@
+Melhorar Interface, objetivo: 
+-Não ter de pôr a imagem inicial, funcionar com qualquer conjunto de coordenadas
+-Pegar coordenadas e por no mapa
+-Fazer display das coordenadas atuais
+-Botão para guardar imagem?
+
+Ferramentas:
+-Mapping Toolbox -> 2D and 3D map displays (https://www.mathworks.com/help/map/getting-started-with-mapping-toolbox.html)
+
+https://thepiratebay.org/description.php?id=36554754
