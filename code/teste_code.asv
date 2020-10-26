@@ -1,0 +1,20 @@
+
+[X,Y,Z] = cylinder(0.2);
+h = 7;
+Z = Z*h;
+deg = pi/180;
+eul=[0 90*deg 0]; %ZYX
+rotm = eul2rotm(eul);
+len=size(X);
+for i=1:len(2)
+    disp(i)
+    %disp([X(i), Y(i), Z(i)])
+    %disp(rotm)
+    B=[X(i), Y(i), Z(i)]* rotm;
+    disp(X(i))
+    %[X(i), Y(i), Z(i)]=[B(1), B(2), B(3)];
+end
+%surf(X,Y,Z);
+%xlim( [-1 1]);
+%ylim([-1 1]);
+%zlim( [0 10]);
