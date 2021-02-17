@@ -1,0 +1,1 @@
+aceX aceY aceZ lati longi altiGPS altiMed 
