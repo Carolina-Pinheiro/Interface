@@ -6,7 +6,9 @@
  The data that is being received must be in the format that is in the first line of the file "datafile.txt"
  
  Still doesn't support:
+ 
  -Raspberry
+ 
  -Read from text file (for testing purposes)
  
  carolina.p.pinheiro@tecnico.ulisboa.pt
