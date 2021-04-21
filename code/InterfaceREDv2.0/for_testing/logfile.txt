@@ -1,0 +1,50 @@
+   41.8050
+
+   41.8060
+
+   41.8070
+
+   41.8080
+
+   41.8090
+
+   41.8100
+
+   41.8110
+
+   41.8120
+
+Error using exportgraphics
+The value of 'destination' is invalid. Cannot create output file './output/Trajectory.png'.
+
+Error in interface_app/save_data (line 414)
+
+Error in interface_app/display_map (line 190)
+
+Error in interface_app/SwitchValueChanged (line 531)
+
+Error in appdesigner.internal.service.AppManagementService/tryCallback (line 344)
+
+Error in matlab.apps.AppBase>@(source,event)tryCallback(appdesigner.internal.service.AppManagementService.instance(),app,callback,requiresEventData,event) (line 35)
+
+Error using matlab.ui.control.internal.controller.ComponentController/executeUserCallback (line 425)
+Error while evaluating ToggleSwitch PrivateValueChangedFcn.
+
+   41.8130
+
+Error using exportgraphics
+The value of 'destination' is invalid. Cannot create output file './output/Trajectory.png'.
+
+Error in interface_app/save_data (line 414)
+
+Error in interface_app/display_map (line 190)
+
+Error in interface_app/SwitchValueChanged (line 527)
+
+Error in appdesigner.internal.service.AppManagementService/tryCallback (line 344)
+
+Error in matlab.apps.AppBase>@(source,event)tryCallback(appdesigner.internal.service.AppManagementService.instance(),app,callback,requiresEventData,event) (line 35)
+
+Error using matlab.ui.control.internal.controller.ComponentController/executeUserCallback (line 425)
+Error while evaluating ToggleSwitch PrivateValueChangedFcn.
+

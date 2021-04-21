@@ -1,0 +1,54 @@
+   41.8050
+
+   41.8060
+
+   41.8070
+
+   41.8080
+
+   41.8090
+
+   41.8100
+
+   41.8110
+
+Warning: The following error was caught while executing 'onCleanup' class destructor:
+Invalid or deleted object.
+
+Error in matlab.graphics.internal.export.Exporter/postExportCleanup
+
+Error in matlab.graphics.internal.export.Exporter>@()obj.postExportCleanup(pj)
+
+Error in onCleanup/delete (line 80)
+
+Error in matlab.graphics.internal.export.Exporter/process
+
+Error in matlab.graphics.internal.export.exportTo
+
+Error in exportgraphics
+
+Error in interface_app/save_data (line 416)
+
+Error in interface_app/display_map (line 190)
+
+Error in interface_app/SwitchValueChanged (line 527)
+
+Error in appdesigner.internal.service.AppManagementService/tryCallback (line 344)
+
+Error in matlab.apps.AppBase>@(source,event)tryCallback(appdesigner.internal.service.AppManagementService.instance(),app,callback,requiresEventData,event) (line 35)
+Error using exportgraphics
+Array of handles must contain Exportable objects
+
+Error in interface_app/save_data (line 416)
+
+Error in interface_app/display_map (line 190)
+
+Error in interface_app/SwitchValueChanged (line 527)
+
+Error in appdesigner.internal.service.AppManagementService/tryCallback (line 344)
+
+Error in matlab.apps.AppBase>@(source,event)tryCallback(appdesigner.internal.service.AppManagementService.instance(),app,callback,requiresEventData,event) (line 35)
+
+Error using matlab.ui.control.internal.controller.ComponentController/executeUserCallback (line 425)
+Error while evaluating DestroyedObject PrivateValueChangedFcn.
+
