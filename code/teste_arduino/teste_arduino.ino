@@ -9,6 +9,7 @@ float vel=10;
 float pitch=0;
 float roll=0;
 float yaw=0;
+float time_go=0;
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
@@ -25,11 +26,12 @@ void loop() {
   aceZ= aceZ + 0.1 ;
   altMed= altMed + 4.9 ;
   vel=vel+0.5;
+  time_go=time_go+0.5;
   //pitch=pitch+1;
   //roll=roll+1;
   //yaw=yaw+1;
   
-  String gps= String(aceX) + ' '  + String(aceY) + ' ' + String(aceZ) + ' ' + String(lat, 5) + ' ' + String(lon,5) + ' '  + String(altMed,5) + ' ' + String(vel,3) + ' ' + String(pitch,3) + ' ' + String(roll,3) + ' ' + String(yaw,3);
+  String gps= String(aceX) + ' '  + String(aceY) + ' ' + String(aceZ) + ' ' + String(lat, 5) + ' ' + String(lon,5) + ' '  + String(altMed,5) + ' ' + String(vel,3) + ' ' + String(pitch,3) + ' ' + String(roll,3) + ' ' + String(yaw,3)+ ' ' + String(time_go,3);
   String data= gps ;
   String trash= "sou lixo" ;
   Serial.println(data);
