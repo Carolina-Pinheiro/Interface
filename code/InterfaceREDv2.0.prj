@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration build-checksum="4179794537" file="C:\Users\Utilizador\Desktop\GitHub\Interface\code\InterfaceREDv2.0.prj" location="C:\Users\Utilizador\Desktop\GitHub\Interface\code" name="InterfaceREDv2.0" preferred-package-location="C:\Users\Utilizador\Desktop\GitHub\Interface\code\InterfaceREDv2.0\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="2381696604" file="C:\Users\Utilizador\Desktop\GitHub\Interface\code\InterfaceREDv2.0.prj" location="C:\Users\Utilizador\Desktop\GitHub\Interface\code" name="InterfaceREDv2.0" preferred-package-location="C:\Users\Utilizador\Desktop\GitHub\Interface\code\InterfaceREDv2.0\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>InterfaceRED</param.appname>
     <param.icon>${PROJECT_ROOT}\InterfaceREDv2.0_resources\icon.ico</param.icon>
     <param.icons>
@@ -77,17 +77,19 @@
     </fileset.main>
     <fileset.resources>
       <file>${PROJECT_ROOT}\datafile.txt</file>
+      <file>${PROJECT_ROOT}\error.png.png</file>
     </fileset.resources>
     <fileset.package>
-      <file>${PROJECT_ROOT}\data</file>
       <file>${PROJECT_ROOT}\datafile.txt</file>
-      <file>${PROJECT_ROOT}\output</file>
     </fileset.package>
     <fileset.depfun>
       <file>${PROJECT_ROOT}\arduino.png</file>
+      <file>${PROJECT_ROOT}\error_window.mlapp</file>
       <file>${PROJECT_ROOT}\raspberry.png</file>
+      <file>${PROJECT_ROOT}\read_me_window.mlapp</file>
       <file>${PROJECT_ROOT}\RED.png</file>
       <file>${PROJECT_ROOT}\test.png</file>
+      <file>${PROJECT_ROOT}\textfile_window.mlapp</file>
     </fileset.depfun>
     <build-deliverables>
       <file location="${PROJECT_ROOT}\InterfaceREDv2.0\for_testing" name="readme.txt" optional="true">C:\Users\Utilizador\Desktop\GitHub\Interface\code\InterfaceREDv2.0\for_testing\readme.txt</file>
