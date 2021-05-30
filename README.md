@@ -18,17 +18,17 @@
 **----------------------------------------1) General Use---------------------------------------------**
 
 
--The angles must be calibrated beforehand 
+-Check the orientation of the angles in the "axis.png" picture
 
 -The data that is being received must be in the following format:
 
-    aceX aceY aceZ lati longi altiMed vel pitch roll yaw time
+    aceX aceY aceZ lati longi altiMed vel rot_x rot_y rot_z time
     
     The data should be separated by spaces
     
 -Select the com door 
 
--Insert the baudrate
+-Select the baudrate
 
 -Flip the on/off switch (the light will turn green to indicate it is on).
 
