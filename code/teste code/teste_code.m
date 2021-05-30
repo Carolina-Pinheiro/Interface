@@ -30,10 +30,13 @@ X=cat(2,X,x);
 Y=cat(2,Y,y);
 Z=cat(2,Z,z);
 
+rot_x=0;
+rot_y=0;
+rot_z=0;
 
 %Rotating matrix
 deg = pi/180;
-eul=[0*deg 90*deg 0*deg]; %ZYX
+eul=[-rot_y*deg rot_z*deg -rot_x*deg]; 
 rotm = eul2rotm(eul);
 len=size(X);
 

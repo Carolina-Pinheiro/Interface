@@ -80,6 +80,7 @@
       <file>${PROJECT_ROOT}\error.png.png</file>
     </fileset.resources>
     <fileset.package>
+      <file>${PROJECT_ROOT}\axis.png</file>
       <file>${PROJECT_ROOT}\datafile.txt</file>
     </fileset.package>
     <fileset.depfun>

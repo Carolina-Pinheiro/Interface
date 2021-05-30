@@ -1,1 +1,1 @@
-aceX aceY aceZ lati longi altiMed vel pitch roll yaw time
+aceX aceY aceZ lati longi altiMed vel rot_x rot_y rot_z time
