@@ -1,0 +1,33 @@
+        9600
+
+está ok
+
+app = 
+
+  control_panel with properties:
+
+                UIFigure: [1x1 Figure]
+       ControlPanelLabel: [1x1 Label]
+     InputEditFieldLabel: [1x1 Label]
+          InputEditField: [1x1 EditField]
+    StandbyModeLampLabel: [1x1 Label]
+         StandbyModeLamp: [1x1 Lamp]
+     FlightModeLampLabel: [1x1 Label]
+          FlightModeLamp: [1x1 Lamp]
+     LaunchModeLampLabel: [1x1 Label]
+          LaunchModeLamp: [1x1 Lamp]
+             OutputTable: [1x1 Table]
+
+Invalid or deleted object.
+
+Error in interface_app/display_map (line 121)
+
+Error in interface_app/SwitchValueChanged (line 546)
+
+Error in appdesigner.internal.service.AppManagementService/tryCallback (line 344)
+
+Error in matlab.apps.AppBase>@(source,event)tryCallback(appdesigner.internal.service.AppManagementService.instance(),app,callback,requiresEventData,event) (line 35)
+
+Error using matlab.ui.control.internal.controller.ComponentController/executeUserCallback (line 425)
+Error while evaluating DestroyedObject PrivateValueChangedFcn.
+

@@ -1,0 +1,1 @@
+aceX aceY aceZ lati longi altiMed vel rot_x rot_y rot_z time5.20000 6.20000 7.20000 41.80600 -6.74700 15.80000 11.00000 2.00000 2.00000 2.00000 1.00000 0.50000 

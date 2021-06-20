@@ -10,9 +10,10 @@ float pitch=0;
 float roll=0;
 float yaw=0;
 float time_go=0;
+int i=0;
 void setup() {
   // put your setup code here, to run once:
-  Serial.begin(2400);
+  Serial.begin(9600);
   
 }
 
@@ -30,13 +31,23 @@ void loop() {
   pitch=pitch+1;
   roll=roll+1;
   yaw=yaw+1;
-  
+  i++;
+
+
+ String c = Serial.readString();
+ if (c == "RED\n"){
+      Serial.println("LAUNCH MODE");}   
+
+  if (i==10){
+    //Serial.println("FLIGHT MODE");
+    }
+
   String gps= String(aceX) + ' '  + String(aceY) + ' ' + String(aceZ) + ' ' + String(lat, 5) + ' ' + String(lon,5) + ' '  + String(altMed,5) + ' ' + String(vel,3) + ' ' + String(pitch,3) + ' ' + String(roll,3) + ' ' + String(yaw,3)+ ' ' + String(time_go,3);
   String data= gps ;
   String trash= "sou lixo!" ;
   Serial.println(data);
-  delay(50);
-  Serial.println(trash);
+
+  //Serial.println(trash);
   delay(1000);
   
 }

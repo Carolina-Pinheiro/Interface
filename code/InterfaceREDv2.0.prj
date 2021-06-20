@@ -76,6 +76,7 @@
       <file>${PROJECT_ROOT}\interface_app.mlapp</file>
     </fileset.main>
     <fileset.resources>
+      <file>${PROJECT_ROOT}\control_panel.mlapp</file>
       <file>${PROJECT_ROOT}\datafile.txt</file>
       <file>${PROJECT_ROOT}\error.png.png</file>
     </fileset.resources>
